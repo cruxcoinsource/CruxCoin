@@ -1,0 +1,2 @@
+usr/local/bin/cruxcoind usr/bin
+usr/local/bin/cruxcoin-cli usr/bin

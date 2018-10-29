@@ -1,0 +1,11 @@
+[Protocol]
+exec=cruxcoin-qt '%u'
+protocol=cruxcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

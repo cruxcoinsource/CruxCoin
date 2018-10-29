@@ -1,0 +1,26 @@
+# /etc/conf.d/cruxcoind: config file for /etc/init.d/cruxcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cruxcoin/cruxcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cruxcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cruxcoind.pid"
+
+# Where to write cruxcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cruxcoind"
+
+# User and group to own cruxcoind process
+#BITCOIND_USER="cruxcoin"
+#BITCOIND_GROUP="cruxcoin"
+
+# Path to cruxcoind executable
+#BITCOIND_BIN="/usr/bin/cruxcoind"
+
+# Nice value to run cruxcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CruxCoin
+Comment=CruxCoin P2P Cryptocurrency
+Comment[fr]=CruxCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CruxCoin, eşten eşe kriptografik sanal para birimi
+Exec=cruxcoin-qt %u
+Terminal=false
+Type=Application
+Icon=cruxcoin128
+MimeType=x-scheme-handler/cruxcoin;
+Categories=Office;Finance;

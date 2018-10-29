@@ -1,0 +1,26 @@
+[Unit]
+Description=CruxCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=cruxcoin
+Group=cruxcoin
+
+Type=forking
+PIDFile=/var/lib/cruxcoind/cruxcoind.pid
+
+ExecStart=/usr/bin/cruxcoind -daemon -pid=/var/lib/cruxcoind/cruxcoind.pid \
+          -conf=/etc/cruxcoin/cruxcoin.conf -datadir=/var/lib/cruxcoind
+
+ExecStop=-/usr/bin/cruxcoin-cli -conf=/etc/cruxcoin/cruxcoin.conf \
+         -datadir=/var/lib/cruxcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
