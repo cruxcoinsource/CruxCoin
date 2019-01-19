@@ -54,28 +54,36 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
     (0, uint256("0x00000f28cb7fce70b89d4558331b586205a2147675f221d9e2bd5fee9a546f54"))
-	(1, uint256("0x000006ae538d111b902390f53b3646eab1e39868400593c450ec8dd13183ef65"))
-	(2, uint256("0x00000b3de89b31efa9b46b7f7cf005c78b63e5bd8ee0b271f47687b59920e18a"))
-	(99, uint256("0x00000025277ac0c7e64cff27bf5571bdaa52daaaa72257a2995c421d609bd90e"))
-	(100, uint256("0x0000000f21c515aff73d308c0515f2d5cd02c969386faa874843ab3497ed00e7"))
-	(127, uint256("0x0000003ef96288903e4c9b79c093a7cc9d52dbe0559c3e609014b79b4f92863e"))
-	(156, uint256("0x00000000b50108b0f1a5f58afaa6bf82e094f161ebd13d6756611f2af16f55fd"))
-	(199, uint256("0x0000001c293d3da9860dc36784f5f3aa552991c57e0c431e37fe743c5bd2f935"))
-	(200, uint256("0x0000003f9f169c769c2c39419a2a1b5c8d1dc18884d51761ef555401dd922e68"))
-	(201, uint256("0xa8e8829bf09921f78ee378ddde51dbfbbca5c1ee2414e64f9aca4c3262870fc5"))
-	(247, uint256("0x8a5882fb7f9caa1d8fbf479d42285b8b5d11ac3145d9aff76d529c98260ca4cf"))
-	(611, uint256("0xe1009c0827984e187673c7dfa2c43d6b9ad9af6d39dbf4c39584d960bb68ea15"))
-	(1026, uint256("0xba6e08ffb618798db9903e3db5b7fd6d03c96a56b5545623d9ac4bb3a16b1407"))
-    	(8047, uint256("0x2fb5f193f48083eac3024d2eeeda1c2e6f190cfe18cb7e6a8f9b3e83fc63661c"))
-    	(15422, uint256("0x6ee03122b6a72dfd605c19345b83e84d5b15fed204313f0eeb9303218ad59c10"))
-    	(23651, uint256("0x174885e8dcd8e1637c3c84405c763f528752ff959837cef4ef35d83639571aad"))
-    	(39812, uint256("0x9e7bda1d3a0207d8b221fdf94eaa63caca225a989a885e911f10ff1cfb47bc8f"))
-    	(49215, uint256("0xb0e2f40d7d894b002304888867a45d238ef39c05ac8001b24d479bfe8e537bed"))
-    	(59320, uint256("0x4ffaf81790fbc5a4ea26a433d00a720fbcbb1d29625731c42fe33ab323da5792"))
-    	(59321, uint256("0x15a1a4a96ec6f3e991c3ca5f75a9a0af2f7773d39c8a3a87331066c7c752aec4"))
-    	(61690, uint256("0x853ca462e667e19883f99e4b9232c037e5ec407451a98b77842ffd9dd8184151"))
-	(61948, uint256("0xe870c99f027cccf97e24b4bef1c0e1b1a4cfbd2cf373c63f23616e9bc957cf25"))
-	;
+    (1, uint256("0x000006ae538d111b902390f53b3646eab1e39868400593c450ec8dd13183ef65"))
+    (2, uint256("0x00000b3de89b31efa9b46b7f7cf005c78b63e5bd8ee0b271f47687b59920e18a"))
+    (99, uint256("0x00000025277ac0c7e64cff27bf5571bdaa52daaaa72257a2995c421d609bd90e"))
+    (100, uint256("0x0000000f21c515aff73d308c0515f2d5cd02c969386faa874843ab3497ed00e7"))
+    (127, uint256("0x0000003ef96288903e4c9b79c093a7cc9d52dbe0559c3e609014b79b4f92863e"))
+    (156, uint256("0x00000000b50108b0f1a5f58afaa6bf82e094f161ebd13d6756611f2af16f55fd"))
+    (199, uint256("0x0000001c293d3da9860dc36784f5f3aa552991c57e0c431e37fe743c5bd2f935"))
+    (200, uint256("0x0000003f9f169c769c2c39419a2a1b5c8d1dc18884d51761ef555401dd922e68"))
+    (201, uint256("0xa8e8829bf09921f78ee378ddde51dbfbbca5c1ee2414e64f9aca4c3262870fc5"))
+    (247, uint256("0x8a5882fb7f9caa1d8fbf479d42285b8b5d11ac3145d9aff76d529c98260ca4cf"))
+    (611, uint256("0xe1009c0827984e187673c7dfa2c43d6b9ad9af6d39dbf4c39584d960bb68ea15"))
+    (1026, uint256("0xba6e08ffb618798db9903e3db5b7fd6d03c96a56b5545623d9ac4bb3a16b1407"))
+    (8047, uint256("0x2fb5f193f48083eac3024d2eeeda1c2e6f190cfe18cb7e6a8f9b3e83fc63661c"))
+    (15422, uint256("0x6ee03122b6a72dfd605c19345b83e84d5b15fed204313f0eeb9303218ad59c10"))
+    (23651, uint256("0x174885e8dcd8e1637c3c84405c763f528752ff959837cef4ef35d83639571aad"))
+    (39812, uint256("0x9e7bda1d3a0207d8b221fdf94eaa63caca225a989a885e911f10ff1cfb47bc8f"))
+    (49215, uint256("0xb0e2f40d7d894b002304888867a45d238ef39c05ac8001b24d479bfe8e537bed"))
+    (59320, uint256("0x4ffaf81790fbc5a4ea26a433d00a720fbcbb1d29625731c42fe33ab323da5792"))
+    (59321, uint256("0x15a1a4a96ec6f3e991c3ca5f75a9a0af2f7773d39c8a3a87331066c7c752aec4"))
+    (61690, uint256("0x853ca462e667e19883f99e4b9232c037e5ec407451a98b77842ffd9dd8184151"))
+    (61948, uint256("0xe870c99f027cccf97e24b4bef1c0e1b1a4cfbd2cf373c63f23616e9bc957cf25"))
+    (72524, uint256("0xcb6b358c8a8d720d3efcfcb9125c2a3a9c3f0a0a7d522910db1181ce81bda9d1"))
+    (79243, uint256("0x888d83abee9afbeb7c55ad31339752d6eb4d2efb2684bd91906633355aa7874f"))
+    (85416, uint256("0x1b574bf7d3707b04704775354c823fd464dfbf373094419837ee4546c29990b9"))
+    (92437, uint256("0x868e9fe06a563ffc4244995f06d776bd5e2df43aa982383bce2b93cee54eb43f"))
+    (99239, uint256("0x6acf52e36ea93e79f07e5a574e798801a6b47db572b25baef3b57f785760e797"))
+    (106243, uint256("0xcd7ccb472ec6c7e1635144a36bc276bd2548f25b0d46a58326ed8a54013ff73e"))
+    (109428, uint256("0xde8fe175a0d48b864804a5cf49eddacdb49fea66f3b24cacae67c4c537a8e52d"))
+    (115962, uint256("0xfc29aae6290b3b8fd514e5e0eefac4653808dbd3ea80b09045a52d5cf13834fe"))
+;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
 	1540798271, // * UNIX timestamp of last checkpoint block
@@ -194,13 +202,21 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x43a85586159f6fe06c8ef283dabd3fb703911e664bbc2c2619bf3556bb7d4b53"));
 
         vSeeds.push_back(CDNSSeedData("0", "45.55.52.90"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("1", "206.189.170.136"));    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("2", "188.166.82.110"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("3", "128.199.253.49"));
-        vSeeds.push_back(CDNSSeedData("4", "178.62.13.176"));
-		vSeeds.push_back(CDNSSeedData("5", "159.89.125.187"));
-		vSeeds.push_back(CDNSSeedData("6", "104.248.125.45"));
-		vSeeds.push_back(CDNSSeedData("7", "206.81.4.162"));
+        vSeeds.push_back(CDNSSeedData("1", "2604:a880:800:a1::a:4001"));     
+        vSeeds.push_back(CDNSSeedData("2", "206.189.170.136"));    // Secondary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("3", "2604:a880:2:d0::41e:b001"));    
+        vSeeds.push_back(CDNSSeedData("4", "188.166.82.110"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("5", "2a03:b0c0:2:d0::f:6001"));      
+        vSeeds.push_back(CDNSSeedData("6", "128.199.253.49"));
+        vSeeds.push_back(CDNSSeedData("7", "2400:6180:0:d0::12:1"));
+        vSeeds.push_back(CDNSSeedData("8", "178.62.13.176"));
+        vSeeds.push_back(CDNSSeedData("9", "2a03:b0c0:1:d0::7:e001"));
+        vSeeds.push_back(CDNSSeedData("10", "159.89.125.187"));
+	vSeeds.push_back(CDNSSeedData("11", "2604:a880:cad:d0::4f:3001"));
+        vSeeds.push_back(CDNSSeedData("12", "104.248.125.45"));
+	vSeeds.push_back(CDNSSeedData("13", "2604:a880:400:d1::6c2:4001"));
+        vSeeds.push_back(CDNSSeedData("14", "206.81.4.162"));
+	vSeeds.push_back(CDNSSeedData("15", "2604:a880:400:d1::694:b001"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -241,7 +257,6 @@ public:
         nDefaultSecurityLevel = 100; //full security level for accumulators
         nZerocoinHeaderVersion = 4; //Block headers must be this version once zerocoin is active
         nZerocoinRequiredStakeDepth = 200; //The required confirmations for a zcux to be stakable
-
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
 
